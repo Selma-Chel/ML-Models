@@ -8,7 +8,7 @@ Most machine learning portfolios only showcase flawless models hitting 95%+ accu
 
 ---
 
-## 📊 The Core Pipeline Structure
+##  The Core Pipeline Structure
 
 The project notebook is structured into two distinct operational phases:
 
