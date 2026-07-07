@@ -1,8 +1,7 @@
 # Case Study: Deceptive Metrics, Target Leakage, and Class Imbalance in Seattle Building Permits
 
-[![Dataset Source: Data.gov](https://img.shields.io/badge/Data_Source-Data.gov-blue)](https://catalog.data.gov/)
-[![Python: 3.10+](https://img.shields.io/badge/Python-3.10+-green.svg)](https://www.python.org/)
-[![Framework: Scikit--Learn](https://img.shields.io/badge/Framework-Scikit--Learn-orange)](https://scikit-learn.org/)
+[![Dataset Source: Data.gov]
+Author: Selma Chelbabi
 
 ##  Executive Summary
 Most machine learning portfolios only showcase flawless models hitting 95%+ accuracy on highly sanitized datasets. **This project is an intentional post-mortem analysis of why real-world machine learning pipelines fail.** Using a public dataset of city building permits from Data.gov, this case study exposes how a flawed predictive objective, severe class imbalance, and hidden target leakage can combine to give a deceptive illusion of performance. It maps the diagnostic journey from a raw python pipeline to uncovering why a model hitting **77% accuracy** is actually completely non-viable for production deployment.
