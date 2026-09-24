@@ -39,6 +39,4 @@ To avoid data leakage, all feature transformations, scaling, and threshold tunin
 * **Tree Model Performance:** Tree ensembles overfit the small sample size ($N=1,470$) without improving minority detection over linear baselines.
 * **Dataset Constraints:** Static tabular variables account for limited variance in resignation decisions. Model performance capped at ~0.58 F1 without external market or real-time data.
 
----
 
-## Repository Structure
